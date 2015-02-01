@@ -2,6 +2,28 @@
     width: 100px;
     height: 100px;
     background-color: yellow;
+    border-radius: 50px;
+}
+
+.red {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    border-radius: 50px;
+}
+
+.blue {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50px;
+}
+
+.green {
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    border-radius: 50px;
 }
 
 p {
@@ -10,6 +32,13 @@ p {
     text-transform: uppercase;
     color: #e7e7e7;
     text-align: center;
-    padding-top: 35px;
+    padding-top: 25px;
+}
 
+div {
+    display: inline-block;
+}
+
+section {
+    width: 400px;
 }
