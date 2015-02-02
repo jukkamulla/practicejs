@@ -27,3 +27,8 @@ function dotsTable() {
     }
 }
 dotsTable();
+
+function clickFunction() {
+    document.getElementById("click").innerHTML = "^_^";
+    document.getElementsByClassName("yellow")[0].innerHTML = "^_^";
+}
