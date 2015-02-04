@@ -29,6 +29,11 @@ function dotsTable() {
 dotsTable();
 
 function clickFunction() {
-    document.getElementById("click").innerHTML = "^_^";
-    document.getElementsByClassName("yellow")[0].innerHTML = "^_^";
+    /*document.getElementById("click").innerHTML = "^_^";
+    document.getElementsByClassName("yellow")[0].innerHTML = "^_^"; */
+    var myClass = document.getElementById("myclass").value;
+    var elements = document.getElementsByClassName(myClass);
+    for (var i = elements.length; i > 0; i--)  {
+        elements[i-1].classList.remove(myClass);
+    }
 }
