@@ -27,16 +27,20 @@
 }
 
 #click {
-    width: 80px;
-    height: 35px;
-    border-radius: 40%;
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
     border: solid #B9B9B9;
     color: #a2a2a2;
     margin: auto;
-    padding-top: 10px;
-    vertical-align: middle;
+    line-height: normal;
+    padding-top: 7px;
+    padding-bottom: 0px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 14px;
+    text-transform: none;
+    display: block;
+    float: right;
 }
 
 p {
@@ -50,8 +54,30 @@ p {
 
 div {
     display: inline-block;
+    position: relative;
+    text-align: center;
+    margin: 5px;
 }
 
 section {
     width: 400px;
+}
+
+input {
+    display: block;
+    width: 100px;
+    height: 35px;
+    border-radius: 50%;
+    border: solid #B9B9B9;
+    margin: 0 5px 20px 100px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#controllers {
+    width: 300px;
+}
+
+#test {
+    margin: auto;
 }
