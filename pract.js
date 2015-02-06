@@ -28,12 +28,19 @@ function dotsTable() {
 }
 dotsTable();
 
-function clickFunction() {
-    /*document.getElementById("click").innerHTML = "^_^";
-    document.getElementsByClassName("yellow")[0].innerHTML = "^_^"; */
+function removeClickFunction() {
     var myClass = document.getElementById("myclass").value;
     var elements = document.getElementsByClassName(myClass);
     for (var i = elements.length; i > 0; i--)  {
         elements[i-1].classList.remove(myClass);
+    }
+}
+function addClickFunction() {
+    var myClass = document.getElementById("myclass").value;
+    var colors = document.getElementsByTagName("div");
+    for (var i = 0; i < colors.length; i++) {
+        if (colors[i].className == '') {
+        colors[i].classList.add(myClass);
+        }
     }
 }
